@@ -6,7 +6,7 @@
 require_once "config.php";
 
 $adsoyad = $_POST["adsoyad"];
-$telefon = substr($_POST["telefon"], -10);
+$telefon = '00966'.substr($_POST["telefon"], -20);
 $urun_id = $_POST['adet'];
 $urun = explode('/', $urun_id);
 
